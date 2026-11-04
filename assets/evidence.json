@@ -1,0 +1,60 @@
+{
+  "recording_id": "act_imagenet-1793695761477848000",
+  "position_index": 12,
+  "policy": "act_imagenet",
+  "checkpoint_step": 9750,
+  "source_excerpt_seconds": [
+    8,
+    21
+  ],
+  "original_human_success_label": null,
+  "footage_review": {
+    "grasp_observed": true,
+    "lift_observed": true,
+    "tray_placement_observed": true,
+    "gripper_release_observed": true,
+    "source_timing_seconds": {
+      "grasp": 10,
+      "lift": 12,
+      "placement_and_release": 15
+    },
+    "method": "Visual frame review of both the approach and post-release outcome in the front recording."
+  },
+  "scope": "One recorded successful pick-and-place attempt; no aggregate success-rate claim.",
+  "dataset": {
+    "accepted_episodes": 100,
+    "fps": 20,
+    "split_episodes": {
+      "training": 80,
+      "validation": 10,
+      "test": 10
+    },
+    "source": "Dataset description and split confirmed by the project owner."
+  },
+  "act_session_review": {
+    "evaluated_positions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "task_completions": 7,
+    "autonomous_completions": 6,
+    "assisted_completions": 1,
+    "attempts": 10,
+    "task_completion_rate": 0.7,
+    "full_review": "act-session-review.json"
+  },
+  "smolvla_session_review": {
+    "completions": 2,
+    "attempts": 10,
+    "completion_rate": 0.2,
+    "full_review": "smolvla-session-review.json"
+  }
+}

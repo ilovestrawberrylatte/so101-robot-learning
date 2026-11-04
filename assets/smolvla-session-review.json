@@ -1,0 +1,26 @@
+{
+  "policy": "SmolVLA",
+  "source_session": "smolvla_finetune-1793697775947183000",
+  "checkpoint_step": 7000,
+  "sampling_steps": 3,
+  "evaluated_positions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "completed_positions": [
+    7,
+    10
+  ],
+  "completions": 2,
+  "attempts": 10,
+  "completion_rate": 0.2,
+  "review_basis": "Front/wrist recording review of the 10 position exports; positions 7 and 10 show lift, transfer and release into the tray."
+}
